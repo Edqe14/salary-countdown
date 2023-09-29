@@ -2,8 +2,11 @@ import { Background } from "@/components/background";
 import { Counter } from "@/components/counter";
 import { getMotivationMessage } from "@/utils/getMotivationMessage";
 import { DateTime } from "luxon";
+import { cookies } from 'next/headers'
 
 export default function Home() {
+  cookies();
+
   const current = DateTime.now().setZone("Asia/Jakarta");
   const lastDay = DateTime.now()
     .setZone("Asia/Jakarta")
