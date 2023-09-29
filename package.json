@@ -10,11 +10,17 @@
     "format": "prettier --write ."
   },
   "dependencies": {
+    "@mantine/core": "^7.1.0",
+    "@mantine/hooks": "^7.1.0",
+    "luxon": "^3.4.3",
     "next": "latest",
     "react": "latest",
+    "react-confetti": "^6.1.0",
+    "react-daisyui": "^4.1.1",
     "react-dom": "latest"
   },
   "devDependencies": {
+    "@types/luxon": "^3.3.2",
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
