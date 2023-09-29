@@ -31,7 +31,7 @@ export const Background = () => {
     <section className="absolute inset-0">
       {blueMode && (
         <video
-          src="sevima_blue.webm"
+          src="https://res.cloudinary.com/mizuho/video/upload/v1695964317/sbnwxqjhszeodlmtottb.webm"
           autoPlay
           playsInline
           className="object-cover w-full h-full"
