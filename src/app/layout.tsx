@@ -5,8 +5,8 @@ import { Instrument_Sans } from "next/font/google";
 const instrument = Instrument_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Salary Counter",
-  description: "Powered by Next",
+  title: "Gajiin dong!",
+  description: "Pantau kapan dapat gajimu.",
 };
 
 export default function RootLayout({
